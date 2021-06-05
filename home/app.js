@@ -1,12 +1,3 @@
-
-var editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
-  mode: "python",
-  theme: "dracula",
-  lineNumbers: true,
-  autoCloseTags: true,
-  autoCloseBrackets: true,
-});
-
 var firebaseConfig = {
   apiKey: "AIzaSyBXFca_dG4kGlVXXNfP9EXxy4oAQTtELBk",
   authDomain: "virtual-labs-a693a.firebaseapp.com",

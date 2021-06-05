@@ -74,7 +74,7 @@ var editor = CodeMirror.fromTextArea(document.getElementById("editor"), {
         item += '<div class="wrapper"><button class="toggle">';
         item += arr[i].title;
         item +=
-          '<i class="fas fa-plus icon"></i></button><div class="content"><p>';
+          '<i class="fas fa-plus icon"></i></button><div class="content"><p style="white-space: pre-line">';
         item += arr[i].description;
         item += "</p></div></div>";
       }
